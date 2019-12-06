@@ -1,0 +1,20 @@
+[package]
+name = "advent"
+version = "0.1.0"
+authors = ["Roman Pak <ppraisethesun@gmail.com>"]
+edition = "2018"
+
+# [dev-dependencies]
+# criterion = "0.3"
+
+# [[bench]]
+# name = "bench_main"
+# harness = false
+
+[dependencies]
+piston_window = "0.105.0"
+plotters = { version = "^0.2.11", features = ["piston"] }
+actix = "0.8"
+futures = "0.1"
+aoc-runner = "0.2.2"
+aoc-runner-derive = "0.2.2"
